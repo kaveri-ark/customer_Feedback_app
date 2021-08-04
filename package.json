@@ -1,19 +1,24 @@
 {
-  "name": "my-app",
+  "name": "customer_feedback_app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node":"v14.15.3",
-    "npm":"6.14.9"
-  },
   "scripts": {
-    "start":"node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaveri-ark/customer_Feedback_app.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaveri-ark/customer_Feedback_app/issues"
+  },
+  "homepage": "https://github.com/kaveri-ark/customer_Feedback_app#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.12"
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
   }
 }
