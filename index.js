@@ -1,7 +1,7 @@
 const passport = require("passport");
 const express = require("express");
 const  googleStragey = require("passport-google-oauth20").Strategy;
-const  keys = require("./customer_Feedback_app/config/keys");
+const  keys = require("./config/keys");
 
 
 
